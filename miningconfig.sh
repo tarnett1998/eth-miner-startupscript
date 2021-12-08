@@ -18,4 +18,4 @@ rm -rf ~/CryptoMining/*.sh
 #echo "#!/bin/sh
 #./t-rex/t-rex -a ethash -o stratum+tcp://us-eth.2miners.com:2020 -u 0xd6a25E9140905a5b024b85B76ac7A996A565b9c5 -p x -w rig1" > ./ETH-2miners.sh
 echo "#!/bin/sh
-~/CryptoMining/1.38/lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0xd6a25E9140905a5b024b85B76ac7A996A565b9c5.rig1" > ./ETH-2miners.sh
+~/CryptoMining/1.38/lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0xd6a25E9140905a5b024b85B76ac7A996A565b9c5.rig1 --devices 1" > ./ETH-2miners.sh
